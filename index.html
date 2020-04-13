@@ -1,265 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Main</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Main</title>
-  <link rel="stylesheet" href="https://bootswatch.com/4/sandstone/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe|Permanent+Marker&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/8d88fe742e.js" crossorigin="anonymous"></script>
-</head>
-
-<body data-spy="scroll" data-target="#navbar-example">
-  <div class="shadows sticky-top">
-    <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand name">
-        <h1>Scott Ladd</h1>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="nav navbar ml-auto content-right">
-          <li class="nav-item active">
-            <a class="nav-link navbarLinks" style="font-size: 16px;" href="#About-Me">About Me
-              <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbarLinks" style="font-size: 16px;" href="#Portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbarLinks" style="font-size: 16px;" href="#Contact">Contact</a>
-          </li>
-        </ul>
+  <body>
+    <div class="container-fluid mt-5">
+      <div class="p-4 row d-flex justify-content-center">
+        <h1>You've come across an old link. That's my bad, sorry.</h1>
       </div>
-    </nav>
-  </div>
-  <!-- left side main -->
-  <div class="container-fluid">
-    <div class="row content">
-      <div class=" col-sm-2">
-      </div>
-      <!-- Main content area -->
-      <div id="About-Me" class="col-sm-8">
-        <div class="container text-center bg-light aboutmeDiv" style="margin-top: 70px;">
-          <h1 class="font-weight-bold bg-light aboutmeH1">About Me</h1>
-
-          <hr class="my-3">
-
-          <div class="card border-0 bg-light" style="max-width: auto;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="assets/images/Profile_pic.jpg" class="card-img" alt="Scott Ladd">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <p style="letter-spacing: 1px;">
-                   I'm a Full Stack Developer with passion for learning new frameworks. I continue to thrive in constantly changing environments. My work reflects
-                   my ability to provide efficient and clean code.</p>
-                  <p style="letter-spacing: 1px;">
-                    These are the coding languages I'm most familiar with: </p>
-                  <h3>
-                    HTML5 <i class="fab fa-html5"></i> <br>
-                    CSS3 <i class="fab fa-css3-alt"></i> <br>
-                    JQuery <i class="fas fa-file-invoice-dollar"></i> <br>
-                    JavaScript <i class="fab fa-js-square"></i> <br>
-                    Node.js <i class="fab fa-node"></i> <br>
-                    ReactJS <i class="fab fa-react"></i> <br>
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- right side about me -->
-      <div class="col-sm-2">
+      <div class="p-4 row d-flex justify-content-center">
+        <a href="https://scottladd.herokuapp.com/"
+          >The Offical Portfolio of Scott Ladd</a
+        >
       </div>
     </div>
-    <!-- new row -->
-    <div class="row content">
-      <div class="col-sm-1">
-      </div>
-      <!-- main column -->
-      <div id="Portfolio" class="col-sm-10">
-        <div class="container" style="text-align: center; margin-bottom: 50px;">
-          <div class="row">
-            <!-- Portfolio cards -->
-            <div class="col-md-6 mt-4">
-              <div class="card cardDiv border-0">
-                <img src="assets/images/litty_screenshot.png" class="card-img-top" alt="Litty Chat App">
-                <h4 class="card-header cardBGcolor">Litty Chat App</h4>
-                <div class="card-body cardBGcolor">
-                  <p class="card-text">A classic chat room with giphy gifs and emojis loaded in.</p>
-                  <p class="card-text font-weight-bold">TECHNOLOGIES USED</p>
-                  <p class="card-text">HTML, CSS, JQuery, Javascript, Node.js, MySQL, Materialize, and Handlebars.</p>
-                  <a href="https://intense-tor-53215.herokuapp.com/" class="btn btn-secondary">Deployed Site</a>
-                  <a href="https://github.com/scottjr101/Litty-Chat-App" class="btn btn-success">Github Repo</a>
-                </div>
-              </div>
-            </div>
-            <!-- next card -->
-            <div class="col-md-6 mt-4">
-              <div class="card cardDiv border-0">
-                <img src="assets/images/greg-ss.png" class="card-img-top" alt="React Memory Game">
-                <h4 class="card-header cardBGcolor">React Memory Game App</h4>
-                <div class="card-body cardBGcolor">
-                  <p class="card-text">It's simple memory game with an Old Gregg twist.</p>
-                  <p class="card-text font-weight-bold">TECHNOLOGIES USED</p>
-                  <p class="card-text">HTML, CSS, JQuery, Javascript, Bootstrap, and ReactJS</p>
-                  <a href="https://clickygameapp2020.herokuapp.com/" class="btn btn-secondary">Deployed Site</a>
-                  <a href="https://github.com/scottjr101/Clicky-Game" class="btn btn-success">Github Repo</a>
-                </div>
-              </div>
-            </div>
+  </body>
 
-          </div>
-          <!-- end of portfolio cards -->
-        </div>
-      </div>
-      <div class="col-sm-1">
-      </div>
-      <!-- end of row -->
-    </div>
-    <div class="row content">
-      <div class="col-sm-1">
-      </div>
-      <div class="col-sm-10">
-        <div class="container" style="text-align: center; margin-bottom: 50px;">
-          <div class="row">
-            <!-- Portfolio cards -->
-            <div class="col-md-6 mt-4">
-              <div class="card cardDiv border-0">
-                <img src="assets/images/scraper-screen-shot.png" class="card-img-top" alt="NPR News Scraper App">
-                <h4 class="card-header cardBGcolor">NPR News Scraper App</h4>
-                <div class="card-body cardBGcolor">
-                  <p class="card-text">NPR news scraping website that saves all the articles to MongoDB Atlas database
-                    that uses Mongoose to interact with MongoDB.
-                  </p>
-                  <p class="card-text font-weight-bold">TECHNOLOGIES USED</p>
-                  <p class="card-text">HTML, CSS, JQuery, Javascript, Node.js, MongoDB, BootStrap, and Handlebars.</p>
-                  <a href="https://nprnewsscraper1.herokuapp.com/" class="btn btn-secondary">Deployed Site</a>
-                  <a href="https://github.com/scottjr101/Mongo-Scraper" class="btn btn-success">Github Repo</a>
-                </div>
-              </div>
-            </div>
-            <!-- next card -->
-            <div class="col-md-6 mt-4">
-              <div class="card cardDiv border-0">
-                <img src="assets/images/reach-display.png" class="card-img-top" alt="Reach App">
-                <h4 class="card-header cardBGcolor">Reach Social Network App</h4>
-                <div class="card-body cardBGcolor">
-                  <p class="card-text">Reach is a social media site with a variaty of ways to communicate with friends or meet new people. With posts, instant chat, video chat and more! You have the ability to create an account with backend password encryption and customize your own profile to share interesting things about yourself.</p>
-                  <p class="card-text font-weight-bold">TECHNOLOGIES USED</p>
-                  <p class="card-text">JSX, CSS, Bootstrap, Javascript, React.js, Redux, Socket.io, MongoDB, Mongoose, JSON Web Tokens, Bcrypt, and Node.js</p>
-                  <a href="https://project3-reach.herokuapp.com/" class="btn btn-secondary">Deployed Site</a>
-                  <a href="https://github.com/Fgailey/Reach" class="btn btn-success">Github Repo</a>
-                </div>
-              </div>
-            </div>
-            <!-- end of row -->
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1">
-      </div>
-    </div>
-    <div class="row content">
-      <div class="col-sm-1">
-      </div>
-      <div class="col-sm-10">
-        <div class="container" style="text-align: center; margin-bottom: 70px;">
-          <div class="row">
-            <!-- Portfolio cards -->
-            <div class="col-md-6 mt-4">
-              <div class="card cardDiv border-0">
-                <img src="assets/images/eat-da-burger.png" class="card-img-top" alt="Eat Da Burger App">
-                <h4 class="card-header cardBGcolor">Eat Da Burger App</h4>
-                <div class="card-body cardBGcolor">
-                  <p class="card-text">A Full stack web app. It uses BootStrap and a Handlebars engine for the front end. Then NodeJS, 
-                    Express, and MySQL for the backend.
-                  </p>
-                  <p class="card-text font-weight-bold">TECHNOLOGIES USED</p>
-                  <p class="card-text">HTML, CSS, JQuery, Javascript, Node.js, MySQL, BootStrap, and Handlebars.</p>
-                  <a href="https://eatdaburger78373.herokuapp.com/" class="btn btn-secondary">Deployed Site</a>
-                  <a href="https://github.com/scottjr101/burger" class="btn btn-success">Github Repo</a>
-                </div>
-              </div>
-            </div>
-            <!-- next card -->
-            <div class="col-md-6 mt-4">
-              <div class="card cardDiv border-0">
-                <img src="assets/images/friend-finder.png" class="card-img-top" alt="Friend Finder NodeJS App">
-                <h4 class="card-header cardBGcolor">Friend Finder NodeJS App</h4>
-                <div class="card-body cardBGcolor">
-                  <p class="card-text">Full stack web app that uses HTML, CSS, Bootstrap, JavaScript, NodeJS, and
-                    Heroku.</p>
-                    <p class="card-text font-weight-bold">TECHNOLOGIES USED</p>
-                  <p class="card-text">HTML, CSS, JQuery, Javascript, Node.js, and BootStrap.</p>
-                  <a href="https://friendfinder1425.herokuapp.com/" class="btn btn-secondary">Deployed Site</a>
-                  <a href="https://github.com/scottjr101/FriendFinder" class="btn btn-success">Github Repo</a>
-                </div>
-              </div>
-            </div>
-            <!-- end of row -->
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1">
-      </div>
-    </div>
-  </div>
+  <!-- bootstrap JS and JQuery -->
 
-  <footer id="Contact" class="container-fluid bg-dark pr-0 pb-0" style="padding: 10px;">
-    <div class="row indent">
-      <div class="container-fluid d-flex align-items-center justify-content-center">
-        <span style="font-size: 4em;">
-          <a href="https://github.com/scottjr101">
-            <i class="fab fa-github-square"></i></a>
-        </span>
-        <span class="ml-3 mr-3" style="font-size: 4em;">
-          <a href="https://reddit.com/u/Scottjr101">
-            <i class="fab fa-reddit"></i></a>
-        </span>
-        <span style="font-size: 4em;">
-          <a href="https://www.linkedin.com/in/scott-ladd-1988abc/">
-            <i class="fab fa-linkedin"></i></a>
-        </span>
-      </div>
-    </div>
-    <div class="row indent">
-      <div class="container-fluid d-flex align-items-center justify-content-center">
-        <span style="font-size: 1em;">
-          <i class="fas fa-envelope"> <a href="mailto:scottjr101@gmail.com">Scottjr101@gmail.com</i></a>
-        </span>
-        <span class="ml-3 mr-3" style="font-size: 1em;">
-          <i class="fas fa-mobile"> (404) 435-7803</i></span>
-        <span style="font-size: 1em;">
-          <i class="fas fa-file"> <a
-              href="https://docs.google.com/file/d/1QOsbAmm9rI3eX5PtsUy2ynAToHJxshOc/view">My resume</i></a>
-        </span>
-      </div>
-    </div>
-    <div class="row indent">
-      <div class="container-fluid pt-3 d-flex align-content-center justify-content-center mt-3 bg-primary">
-        <p class="font-weight-bold text-white" style="font-size: 1em;">Scott Ladd &copy;2020</p>
-      </div>
-    </div>
-  </footer>
-
-</body>
-
-<!-- bootstrap JS and JQuery -->
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
 </html>

@@ -1,5 +1,3 @@
-# Main Profile Page
+## This is not not my main portfolio page anymore.
 
-### Deployed Site
-
-[Click Here](https://scottjr101.github.io/)
+[This is my current portfolio](https://scottladd.herokuapp.com/)

@@ -1,51 +1,10 @@
-h1 {
-  margin-bottom: 0px;
+a {
+  color: coral;
+  font-size: 2rem;
 }
-.navbarLinks {
-  color: black;
-}
-.row.content {
-  height: auto;
-}
-.name {
-  margin-left: 10px;
-  font-family: 'Mr Dafoe', cursive;
-}
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-}
-.shadows {
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-}
-.cardDiv {
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
-}
-.cardDiv:hover {
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.4);
-  /* background-color: transparent; */
-  background-color: transparent;
-  transform: scale(1.04);
-}
-.cardBGcolor {
-  background-color: #fff;
-}
-.aboutmeDiv {
-  margin-bottom: 50px;
-  padding: 10px 25px 20px 25px;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 11px 15px 5px rgba(0, 0, 0, 0.25);
-}
-.aboutmeH1 {
-  font-family: 'Permanent Marker', cursive;
-}
-.indent {
-  margin-right: 0px;
-}
-body {
-  background: url("../images/escheresque_ste.png");
-  position: relative;
+
+a:hover,
+a:focus {
+  color: rgb(251, 67, 0);
+  text-decoration: none;
 }
